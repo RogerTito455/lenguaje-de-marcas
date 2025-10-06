@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 5rem;
+  border-radius: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.nav-bar {
+  background-color: blue;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  list-style-position: inside;
+  text-align: left;
+}
+ul li {
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+ul li a {
+  color: white;
+}
+.title-web {
+  background-color: yellow;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: green;
+  color: brown;
+  margin-bottom: 1rem;
+}
+.box-final {
+  text-align: left;
+  color: blue;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blue;
+  margin-bottom: 1rem;
+}
+.autor-box {
+  background-color: black;
+  padding: 1.2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.titulo-secundario {
+  color: red;
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+}
+.text-end {
+  text-align: right;
+  word-wrap: break-word;
+}
+
+table {
+  margin: 0 auto; /* centra horizontalmente */
+  border-collapse: collapse;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  width: 90%;
+}
+.color-green {
+  background-color: green;
+  border: 2px solid black;
+}
+.color-orange {
+  background-color: orange;
+  border: 2px solid black;
+}
+.color-blue {
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.w1 {
+  border: 2px solid black;
+  text-align: left;
+}
+.w2 {
+  border: 2px solid black;
+  text-align: left;
+}
+.w3 {
+  border: 2px solid black;
+  text-align: left;
+}
+
+footer {
+  margin-top: 2rem;
+  color: purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px dotted green;
+}

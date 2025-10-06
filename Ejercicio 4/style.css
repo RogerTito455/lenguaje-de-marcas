@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  height: auto;
+  width: 200px;
+}
+header {
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  border: 5px dotted blue;
+  width: fit-content;
+}
+ul li {
+  margin-right: 1rem;
+  list-style-type: none;
+}
+ul li a {
+  color: green;
+}
