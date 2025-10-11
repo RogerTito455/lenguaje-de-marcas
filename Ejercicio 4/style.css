@@ -14,10 +14,22 @@ img {
 }
 header {
   padding: 1rem;
-
+}
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
+}
+.nav-links {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
 }
 ul {
   display: flex;
@@ -30,4 +42,86 @@ ul li {
 }
 ul li a {
   color: green;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  background-color: orange;
+  margin-bottom: 1rem;
+  border: 3px dotted blue;
+}
+.primer-apartado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.primer-apartado p {
+  width: 100%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 2px dotted black;
+}
+.primer-apartado a {
+  color: orange;
+}
+.segundo-apartado {
+  display: flex;
+  align-items: center;
+}
+.segundo-apartado img {
+  height: auto;
+  margin-right: 1rem;
+}
+.texto-interior {
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px dotted black;
+}
+.autor-info {
+  text-align: center;
+  padding: 1rem;
+  border: 2px dotted black;
+  margin: 1rem 0 1rem 0;
+  text-decoration: underline;
+}
+.tercer-sub-apartado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+table,
+table tr,
+table td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 0.25rem;
+  width: 75%;
+}
+table {
+  margin-right: 2rem;
+}
+.blue {
+  background-color: blue;
+  color: white;
+  width: 25%;
+}
+.white {
+  width: 30%;
+}
+.green {
+  width: 50%;
+  background-color: green;
+}
+.texto-interior1 {
+  border: 2px dotted black;
+  padding: 0.5rem;
+  width: 25%;
+  padding: 1.5rem;
+}
+.footer {
+  border: 2px dotted black;
+  color: purple;
+  text-align: center;
+  margin-top: 1rem;
 }
