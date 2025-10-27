@@ -1,0 +1,19 @@
+div,
+nav,
+ul,
+li,
+main,
+h1,
+p,
+img {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+#div_esquerra {
+  width: 30%;
+}
+#div_dreta {
+  width: 70%;
+}
